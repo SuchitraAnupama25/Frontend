@@ -1,0 +1,30 @@
+Use of classes in html: is to write css for particular heading(.)for class
+id(#):
+diff b/w class and an id:
+class can be used for multiple times for different elements///
+id should be unique
+
+
+SEO
+CLASS
+ID
+STYLING(INTERNAL,INLINE)
+DIV
+
+
+Div tag is to grp the element ot it acts like a container.
+ 
+
+pseudos of css
+hover
+first-line
+first-letter
+selection
+nth-child
+odd
+
+Order of priority:
+1. Inline css
+2. ID
+3. class
+4. element selector

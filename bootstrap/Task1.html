@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .input-text{
+            width: 400px;
+            gap: 50px;
+        }
+        .image-view{
+            height: 450px;
+            
+        }
+        .bar-width{
+            height: 400%;
+        }
+    </style>
+</head>
+<body>
+    <!--NavBar Start-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bar-width">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex" role="search">
+        <input class="form-control me-2 input-text" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Shoe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Men</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page">Women</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    <!--Navbar end-->
+    <!--Carousel Start-->
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active image-view">
+      <img src="https://media.gq.com/photos/671fe8a55c868c857ce3371c/16:9/w_1280,c_limit/Dress%20Shoes%20-%20Lede.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item image-view">
+      <img src="https://images.prismic.io/suitshop/11a2d696-695a-487c-ac4b-81a173fa309a_LoganWeddingTriMerousPhotographyLodgeatRiverValleyFarmYorktownIndiana-131.jpg?auto=compress%2Cformat&rect=0%2C1%2C1499%2C999&w=3400&ar=16%3A9&fit=crop&crop=faces%2Cfocalpoint" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item image-view">
+      <img src="https://www.hindustantimes.com/ht-img/img/2026/05/12/cropped/16-9/hoefg_1778576462674_1778576467389.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!--Carousel end-->
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!--Script-->
+</body>
+</html>

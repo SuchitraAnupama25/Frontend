@@ -1,0 +1,11 @@
+Formatting Tags
+<i>
+<b>
+<em>
+<mark>
+<u>
+<ins>
+<del>
+<sub>
+<sup>
+<strong>

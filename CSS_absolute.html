@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute html</title>
+    <style>
+        .outer{
+            height: 400px;
+            width: 800px;
+            border: 2px solid black;
+            position: relative;
+        }
+        .inner{
+            position: absolute;
+            top: 70px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">Inner text</div>
+    </div>
+</body>
+</html>

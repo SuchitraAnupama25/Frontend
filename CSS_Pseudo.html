@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo</title>
+    <style>
+        .hello{
+            background-color: yellow;
+            width: 150px;
+            height: 50px;
+        }
+        .hello:hover{
+            background-color: red;
+        }
+        p::first-line{
+            font-size: 30px;
+            color: aqua;
+        }
+        p::first-letter{
+            font-size: 45px;
+            font-style: italic;
+        }
+        p::selection{
+            background-color: brown;
+        }
+        li:nth-child(3n+2){
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <button class="hello">Hello</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio atque corporis ab, quisquam minima aut omnis eius beatae aperiam, quis necessitatibus cum fuga voluptas recusandae nostrum voluptatum! Vitae, mollitia nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil dolorem nulla ducimus provident porro? Optio ratione quam, laborum rem error ut natus, modi unde, dolorem debitis quae cum tenetur.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quas rem magni neque autem distinctio facere reiciendis rerum libero ipsam? Atque provident nisi fuga harum aperiam voluptas earum beatae! Maxime.</p>
+    <ul>
+        <li>Dhoni num 7</li>
+        <li>Kohli num 18</li>
+        <li>Rohit num 45</li>
+        <li>Sachin num 10</li>
+        <li>Ganguly num 99</li>
+        <li>Dhoni num 7</li>
+        <li>Kohli num 18</li>
+        <li>Rohit num 45</li>
+        <li>Sachin num 10</li>
+        <li>Ganguly num 99</li>
+    </ul>
+</body>
+</html>

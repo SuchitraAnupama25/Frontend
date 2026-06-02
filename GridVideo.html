@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Example</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: 70% 30%;
+        }
+        .main-video{
+            width: 80%;
+            height: 600px;
+        }
+        .section-two{
+            height: 600px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="section-one">
+            <iframe class="main-video" src="sample.mp4" title="Main video"></iframe>
+        </div>
+        <div class="section-two">
+            <iframe class="video1" src="sample.mp4" title="Sample1 video"></iframe>
+            <h3>Sample1</h3>
+            <iframe class="video2" src="sample.mp4" title="Sample2 video"></iframe>
+            <h3>Sample2</h3>
+            <iframe class="video3" src="sample.mp4" title="Sample3 video"></iframe>
+            <h3>Sample3</h3>
+            <iframe class="video4" src="sample.mp4" title="Sample4 video"></iframe>
+            <h3>Sample4</h3>
+        </div>
+    </div>
+</body>
+</html>

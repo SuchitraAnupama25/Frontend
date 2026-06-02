@@ -1,0 +1,38 @@
+Interview Ques:
+Diff b/w bold and strong? in <b> tag the accessability not considered where as in <strong> tag accessability is considered.
+Diff b/w italic and emphasis? same as bold and strong
+
+document
+    |
+    |
+   HTML
+    |
+    |
+   |       |
+element    body
+            |
+head    img     a   h1
+  |      |      |   |
+title   SRC    href text
+  |     alt
+Text
+
+Types of CSS: Internal, External and Inline CSS
+
+Margin Property always clockwise direction (top-right-bottom-left)// if only 3 values then (top-right-bottom-right(left))
+if only 2 values then(top-right-top(bottom)-right(left))
+
+Difference b/w margin and padding
+margin: Outside the border
+padding: Inside the border
+
+Box Model:
+
+Diff b/w width and max-width in CSS
+max width can change according to the screen responsiveness
+where width has fixed size in accordance with screen responsiveness
+
+Difference b/w static,relative,absolute,sticky and fixed
+
+Diff b/w var,let and const
+diff b/w == and ===
