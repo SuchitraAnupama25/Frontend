@@ -17,5 +17,8 @@ let values = res.slice(0,1);
 console.log(values);
 
 let arr = [10,20,30,40,50];
-arr.splice(1,1)
+// arr.splice(1,1)
+// arr.splice(1,2,70);
+arr.splice(1,2,70,90);
 console.log(arr);//splice(count,delete_count,item1,item2)
+
