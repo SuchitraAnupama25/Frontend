@@ -24,5 +24,17 @@ console.log(arr);//splice(count,delete_count,item1,item2)
 
 //map,filter & reduce
 let arrs = [10,20,30,40,50];
-let val = arr.filter(num => num > 20);
+let val = arrs.filter(num => num > 20);
 console.log(val);
+
+let res1 = [
+    {name:"iphone",price:1234},
+    {name:"iphone",price:3456},
+    {name:"iphone",price:1236},
+    {name:"Samsung",price:1234},
+    {name:"redmi",price:1234}
+];
+let values1 = res1.slice(0,1);
+let vals = res1.filter(mobile => mobile.name == "Samsung");
+console.log(vals);
+console.log(values1);
