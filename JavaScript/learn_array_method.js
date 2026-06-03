@@ -17,14 +17,14 @@ let values = res.slice(0,1);
 console.log(values);
 
 let arr = [10,20,30,40,50];
-// arr.splice(1,1)
+arr.splice(1,1)
 // arr.splice(1,2,70);
-arr.splice(1,2,70,90);
+// arr.splice(1,2,70,90);
 console.log(arr);//splice(count,delete_count,item1,item2)
 
 //map,filter & reduce
 let arrs = [10,20,30,40,50];
-let val = arrs.filter(num => num > 20);
+let val = arrs.filter(num => num > 20);//filters the specified content
 console.log(val);
 
 let res1 = [
@@ -38,3 +38,28 @@ let values1 = res1.slice(0,1);
 let vals = res1.filter(mobile => mobile.name == "Samsung");
 console.log(vals);
 console.log(values1);
+
+let company = ["Apple","Microsoft","Nvidia","Adobe"];
+company.splice(1,0,"Open AI","claude");
+console.log(company);
+
+let transaction = [
+    {status:"FAILED",product:"Phone",vaue:2000},
+    {status:"SUCCESS",product:"Charger",vaue:2000},
+    {status:"FAILED",product:"Smart Watch",vaue:3000},
+    {status:"FAILED",product:"Shoes",vaue:5000},
+    {status:"SUCCESS",product:"Phone",vaue:2000},
+    {status:"SUCCESS",product:"Phone",vaue:2000}
+]
+
+let mapOp = transaction.map((vale) => `product of ${vale.product} amount ${vale.vaue}`);
+let mapOp1 = transaction.map((vale) => console.log(vale));
+console.log(mapOp);
+
+let finOp = transaction.filter((value) => value.status == "SUCCESS");
+console.log(finOp);
+
+//map method will iterate through each element of an array
+let arry = [20,30,40];
+let valu = arry.map((num) => num * 2);
+console.log(valu);
