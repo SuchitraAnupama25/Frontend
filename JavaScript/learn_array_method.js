@@ -63,3 +63,18 @@ console.log(finOp);
 let arry = [20,30,40];
 let valu = arry.map((num) => num * 2);
 console.log(valu);
+
+//reduce method 
+let scores = [72,65,92,35,92,90];
+let final = scores.reduce((acc,vaues) => acc+vaues, 10);
+console.log("Total score:",final);//2nd argument holds accmulator initial values
+
+
+let mobile = [
+    {name:"Iphone",brand:"Apple",price:10000,country:"US"},
+    {name:"Galaxy",brand:"Samsing",price:4000,country:"Korea"},
+    {name:"POCO",brand:"MI",price:2000,country:"China"},
+    {name:"Iphone",brand:"Apple",price:3000,country:"US"},
+];
+let totalValue = mobile.reduce((acc,value) => acc+value.price, 0);
+console.log("Total Value",totalValue);
