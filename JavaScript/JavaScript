@@ -1,1 +1,2 @@
-// 
+// define closure
+// closure is the way inner function remembers/retains outer scope value even after outer function is closed.
