@@ -11,4 +11,8 @@ function sendEmail(){
     console.log("Email sent to client");
 }
 
-downloadReport(sendEmail);
+// downloadReport(sendEmail);
+downloadReport(()=>{
+    sendEmail();
+}
+)
