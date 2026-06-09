@@ -10,13 +10,16 @@ setInterval(() => {
 
 */
 
+//Callback: Callback is a func passed as an argument to another function and it is executed later 
+//or executed after current func is finished.
+
 function one() {
     setTimeout(() => {
         console.log("in function one");
     }, 3000);
 }
 
-function two() {
+function two() {//Async Programming
     setTimeout(() => {
         console.log("in function two");
     }, 1500);
