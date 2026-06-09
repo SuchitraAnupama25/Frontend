@@ -5,3 +5,6 @@
 //1st APPROACH
 //Call back: (Use of callback)
 //it is used to handle async programing(asynchronous programming).
+//Promise: To avoid callback hell.
+//Callback hell: when you have more number of functions the code gets messier then that is called callback hell.
+//
