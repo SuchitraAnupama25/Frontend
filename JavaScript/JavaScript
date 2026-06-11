@@ -9,3 +9,7 @@
 //Callback hell: when you have more number of functions the code gets messier then that is called callback hell.
 
 //What is destrcturing? Extracting the data from the collection of data
+
+//Spread Operator
+
+// used to combine the array or object

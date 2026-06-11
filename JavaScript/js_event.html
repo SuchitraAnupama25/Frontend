@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event</title>
+</head>
+<body>
+    <h1 id="hello"></h1>
+    <label for="textInput">Enter text:</label>
+    <input id="textInput" type="text" value="" placeholder="Type something" onblur="pen()">
+    <button type="button" onclick="itsclick()" onmouseover="remote()" onmouseout="tv()">Click</button>
+    <script>
+        function itsclick(){
+            alert("Button click chesav le po");
+            document.getElementById("hello").innerHTML = "I've clicked";
+        }
+
+        function remote(){
+            document.getElementById("hello").innerHTML = "On mouse Over";
+        }
+
+        function tv(){
+            document.getElementById("hello").innerHTML = "Moving out of the button";
+        }
+        function pen(){
+            document.getElementById("hello").innerHTML = "I've blurred the text";
+        }
+    </script>
+</body>
+</html>
