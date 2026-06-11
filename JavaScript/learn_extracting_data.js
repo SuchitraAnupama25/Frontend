@@ -15,3 +15,37 @@ const[first1,second2,third3] = colours;
 console.log(first1);
 console.log(second2);
 console.log(third3);
+
+//object without destructuring
+const employee1={
+    name1:"Anupama",
+    role1:"Developer",
+    company1:"MNC"
+}
+
+const name1 = employee1.name1;
+const role1 = employee1.role1;
+const company1 = employee1.company1;
+
+console.log(name1);
+console.log(role1);
+console.log(company1);
+
+
+//object with destructuring
+
+const employee = {
+    name:"Anupama",
+    role:"Developer",
+    company:"MNC"
+};
+const{name,role,company} = employee;
+
+console.log(name);
+console.log(role);
+console.log(company);
+
+let arr1 = [1,2,3,4];
+let arr2 = [5,6,7,8];
+let result = arr1.concat(arr2);
+console.log(result);
