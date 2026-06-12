@@ -9,7 +9,7 @@
     <h1>Fetch API Example</h1>
     <button onclick="fetchData()">Fetch Data</button>
     <div id="result"></div>
-    <script>
+    <script>//How to make API call using JS
         async function fetchData(){
             let response = await fetch("https://jsonplaceholder.typicode.com/posts");
             let data = await response.json();
