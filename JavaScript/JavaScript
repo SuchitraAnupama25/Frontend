@@ -15,3 +15,11 @@
 // used to combine the array or object
 
 //Handling asynchronous programing in a synchronous way
+
+
+ES6 features:
+=>let, const
+=> Arrow function
+=> Classes
+=> destructuring
+=> Spread Operator
